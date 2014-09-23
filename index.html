@@ -12,9 +12,13 @@
         <div class="app">
             <h1>Apache Cordova</h1>
             <div id="deviceready" class="blink">
-                <p class="event listening">Connecting to Device</p>
-                <p class="event received">Device is Ready</p>
+                <p id="Connecting">Connecting to Device</p>
+                <p>Device is Ready</p>
             </div>
         </div>
     </body>
+    <script>
+    	document.getElementById('Connecting').innerHTML = location.href;
+    	location.href = "http://www.zenditiononline.com/DM80/IssueHome.php";
+    </script>
 </html>
